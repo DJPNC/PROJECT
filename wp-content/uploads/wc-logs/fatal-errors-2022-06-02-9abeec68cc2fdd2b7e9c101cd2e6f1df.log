@@ -1,0 +1,49 @@
+2022-06-02T09:56:49+00:00 CRITICAL Uncaught TypeError: urlencode(): Argument #1 ($string) must be of type string, array given in D:\xampp\htdocs\pnc\wp-content\plugins\yellow-pencil-visual-theme-customizer\yellow-pencil.php:938
+Stack trace:
+#0 D:\xampp\htdocs\pnc\wp-content\plugins\yellow-pencil-visual-theme-customizer\yellow-pencil.php(938): urlencode(Array)
+#1 D:\xampp\htdocs\pnc\wp-content\plugins\yellow-pencil-visual-theme-customizer\editor\editor.php(154): wyp_urlencode(Array)
+#2 D:\xampp\htdocs\pnc\wp-content\plugins\yellow-pencil-visual-theme-customizer\yellow-pencil.php(3060): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\pnc\wp-includes\class-wp-hook.php(292): wyp_frame_output('')
+#4 D:\xampp\htdocs\pnc\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#5 D:\xampp\htdocs\pnc\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#6 D:\xampp\htdocs\pnc\wp-admin\admin.php(237): do_action('load-admin_page...')
+#7 {main}
+  thrown in D:\xampp\htdocs\pnc\wp-content\plugins\yellow-pencil-visual-theme-customizer\yellow-pencil.php on line 938
+
+2022-06-02T15:31:32+00:00 CRITICAL syntax error, unexpected token "}" in D:\xampp\htdocs\pnc\wp-content\themes\flatsome\functions.php on line 16
+
+2022-06-02T15:40:52+00:00 CRITICAL syntax error, unexpected token "<" in D:\xampp\htdocs\pnc\wp-content\themes\flatsome\functions.php on line 15
+
+2022-06-02T16:29:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_shortcode(), 1 passed in D:\xampp\htdocs\pnc\wp-content\themes\flatsome\functions.php on line 23 and exactly 2 expected in D:\xampp\htdocs\pnc\wp-includes\shortcodes.php:63
+Stack trace:
+#0 D:\xampp\htdocs\pnc\wp-content\themes\flatsome\functions.php(23): add_shortcode('guidi1')
+#1 D:\xampp\htdocs\pnc\wp-settings.php(528): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\pnc\wp-config.php(90): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\pnc\wp-load.php(37): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\pnc\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\pnc\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\pnc\wp-includes\shortcodes.php on line 63
+
+2022-06-02T16:44:13+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp\htdocs\pnc\wp-content\themes\flatsome\functions.php on line 23
+
+2022-06-02T16:44:53+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp\htdocs\pnc\wp-content\themes\flatsome\functions.php on line 23
+
+2022-06-02T16:45:08+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp\htdocs\pnc\wp-content\themes\flatsome\functions.php on line 23
+
+2022-06-02T16:45:36+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp\htdocs\pnc\wp-content\themes\flatsome\functions.php on line 23
+
+2022-06-02T16:45:51+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp\htdocs\pnc\wp-content\themes\flatsome\functions.php on line 23
+
+2022-06-02T16:46:13+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp\htdocs\pnc\wp-content\themes\flatsome\functions.php on line 23
+
+2022-06-02T16:46:29+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp\htdocs\pnc\wp-content\themes\flatsome\functions.php on line 23
+
+2022-06-02T16:48:30+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp\htdocs\pnc\wp-content\themes\flatsome\functions.php on line 23
+
+2022-06-02T16:50:31+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp\htdocs\pnc\wp-content\themes\flatsome\functions.php on line 23
+
+2022-06-02T16:52:32+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp\htdocs\pnc\wp-content\themes\flatsome\functions.php on line 23
+
+2022-06-02T16:52:34+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp\htdocs\pnc\wp-content\themes\flatsome\functions.php on line 23
+
